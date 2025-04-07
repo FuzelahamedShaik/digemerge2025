@@ -1413,6 +1413,25 @@ section.ot-inner {
       text-transform: uppercase; }
 
 /*===========Partner Section================*/
+
+.partner-logos {
+  display: flex;
+  justify-content: center; /* or space-between / space-evenly */
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-x: auto; /* optional for responsiveness */
+}
+
+.partner-logos li img {
+  max-height: 100px; /* adjust size as needed */
+  max-width: 100px;
+  object-fit: contain;
+}
+
 section.partner {
   position: relative;
   margin-top: 120px;
